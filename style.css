@@ -1,0 +1,45 @@
+* {
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    
+}
+
+.heading-img {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.heading-logo {
+    width: 6.6rem;
+    height: 5.435rem;
+    padding-top: 0.8rem;
+    padding-left: 1.6rem;
+
+}
+
+.no-padding {
+    padding: 0;
+    margin: 0;
+}
